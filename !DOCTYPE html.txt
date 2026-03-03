@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+        // Declarando variáveis - passo a passo
+        // 1. "let" para valores que vão mudar
+        let nomeAluno = "Maria";
+        let idade = 20;
+        idade = 20;
+        idade = 21; //Posso alterar depois
+
+        // 2. "const" para valores fixos
+        const TAXA_JUROS = 0.05;
+        // TAXA_JUROS = 0.10; X Erro! const não pode mudar
+
+        // 3. Exibindo no console do navegador (F12)
+        console.log(nomeAluno);  // -> "Maria"
+        console.log(idade);  //-> 21
+
+    </script>
+    
+</body>
+</html>
